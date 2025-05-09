@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "anpan715"
+        }
+      }
+    },
+    "title": "FixedCam",
+    "description": "カメラを固定しアイテムを利用しないと向きを変えられなくするデータパックです。",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
